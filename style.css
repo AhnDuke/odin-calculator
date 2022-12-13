@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    flex-grow: 1;
+}
+
+h1 {
+    margin-bottom: 80px;
+    margin-top: 72px;
+}
+
+.textBox{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 232px;
+    min-height: 80px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+#display {
+    display: flex;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    min-height: 100px;
+    min-width: 246px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#numPadContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+#enter, #clear{
+    display: flex;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    min-width: 122px;
+    min-height: 40px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#clear:hover, #enter:hover{
+    background-color: #C0C0C0;
+}
+
+#enter:active, #clear:active{
+    background-color: #383838;
+    min-width: 124px;
+    min-height: 30px;
+    margin: 0px;
+    border: none;
+}
+
+#finishBox{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+    min-width: 60px;
+    min-height: 60px;
+    background-color: white;
+    user-select: none;
+}
+
+p:hover{
+    background-color: #C0C0C0;
+}
+
+p:active{
+    background-color: #383838;
+    min-height: 62px;
+    min-width: 62px;
+    margin: 0px;
+    border: none;
+}
